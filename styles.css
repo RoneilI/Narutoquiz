@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    background-image: url(Naruto.gif); /* Replace with actual image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    color: #ff7700; /* Naruto's orange */
+}
+
+#ques {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-left: 5px solid #ff7700; /* Naruto's orange */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+input[type="radio"] {
+    accent-color: #ff7700; /* Naruto's orange */
+}
+
+label {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+label:hover {
+    background-color: #ff7700; /* Naruto's orange */
+    color: #fff;
+}
+
+#btn {
+    background-color: #ff7700; /* Naruto's orange */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #005cbf; /* Rasengan blue */
+}
+
+#score {
+    font-size: 1.5em;
+    color: #ff7700; /* Naruto's orange */
+}
